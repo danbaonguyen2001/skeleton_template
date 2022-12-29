@@ -1,0 +1,32 @@
+/* .skeleton {
+  background-color: #e2e5e7;
+  background-image: -webkit-linear-gradient(
+    90deg,
+    rgba(#ffffff, 0),
+    rgba(#ffffff, 0.5),
+    rgba(#ffffff, 0)
+  );
+  background-size: 40px 100%;
+  background-repeat: no-repeat;
+  background-position: left -40px top 0;
+  animation: shine 1s ease infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: right -40px top 0;
+  }
+} */
+
+.skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: hsl(200, 20%, 80%);
+  }
+  100% {
+    background-color: hsl(200, 20%, 95%);
+  }
+}
